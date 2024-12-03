@@ -3,7 +3,7 @@ module.exports = {
     {
       name: "ReactJsVite",
       script: "npm",
-      args: "run preview",
+      args: "run preview -- --host",
       cwd: "./",
       env: {
         NODE_ENV: "production",
